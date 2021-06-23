@@ -9,19 +9,20 @@ const publicPath = './public'
 export const defaultOptions = {
     generator: `GatsbyJS`,
     query: `
-        {
-            site {
-                siteMetadata {
-                    title
-                    description
-                    siteUrl
-                    site_url: siteUrl
-                }
-            }
+      {
+        site {
+          siteMetadata {
+            title
+            description
+            siteUrl
+            site_url: siteUrl
+          }
         }
+      }
     `,
     setup: ({
-        query: { siteMetadata, ...rest }
+        query: { site: { siteMetadata } },
+        ...rest
     }) => {
         return {
             ...siteMetadata,
