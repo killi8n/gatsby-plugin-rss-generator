@@ -49,6 +49,7 @@ exports.onPostBuild = async ({ graphql, reporter }, pluginOptions) => {
             setup,
             ...inner
         } = {
+            ...options,
             ...feed
         }
 
