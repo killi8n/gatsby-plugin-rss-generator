@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-plugin-rss-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "email": "killi8n.dev@gmail.com",
+    "name": "killi8n"
+  }
+}
