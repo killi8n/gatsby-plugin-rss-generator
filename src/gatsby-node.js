@@ -6,7 +6,7 @@ import { runQuery } from './utils'
 
 const publicPath = './public'
 
-const defaultOptions = {
+export const defaultOptions = {
     generator: `GatsbyJS`,
     query: `
         {

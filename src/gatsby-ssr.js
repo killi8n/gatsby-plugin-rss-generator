@@ -1,6 +1,6 @@
 import React from "react"
 import { withPrefix as fallbackWithPrefix, withAssetPrefix } from "gatsby"
-import { defaultOptions } from "./internals"
+import { defaultOptions } from "./gatsby-node"
 
 // TODO: remove for v3
 const withPrefix = withAssetPrefix || fallbackWithPrefix
